@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Material
+import ChameleonFramework
 
 extension UILabel {
     func forTitleGrayBold() {

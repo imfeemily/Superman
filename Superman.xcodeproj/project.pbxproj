@@ -31,6 +31,7 @@
 		4F25E3CD21B131700061922E /* MyTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B821B131700061922E /* MyTableViewExtension.swift */; };
 		4F25E3CE21B131700061922E /* MyNavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */; };
 		4F25E3CF21B131700061922E /* MyButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3BA21B131700061922E /* MyButtonExtension.swift */; };
+		4F25E3D121B147960061922E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3D021B147960061922E /* Constants.swift */; };
 		73F3F8A89E3F9C5B94AD09BE /* Pods_Superman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DFD52ED862C2A78CBCD6CF /* Pods_Superman.framework */; };
 		F2C64889EF653A8DE9A5EA4F /* Pods_SupermanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046006FED825FA8564C9A626 /* Pods_SupermanTests.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		4F25E3B821B131700061922E /* MyTableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewExtension.swift; sourceTree = "<group>"; };
 		4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationControllerExtension.swift; sourceTree = "<group>"; };
 		4F25E3BA21B131700061922E /* MyButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonExtension.swift; sourceTree = "<group>"; };
+		4F25E3D021B147960061922E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6B34BF33680CF5AB077E7108 /* Pods-Superman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Superman/Pods-Superman.debug.xcconfig"; sourceTree = "<group>"; };
 		C3DFD52ED862C2A78CBCD6CF /* Pods_Superman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Superman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 		4F25E38D21B12C340061922E /* Superman */ = {
 			isa = PBXGroup;
 			children = (
+				4F25E3D021B147960061922E /* Constants.swift */,
 				4F25E3A521B131700061922E /* Extension */,
 				4F25E38E21B12C340061922E /* Superman.h */,
 				4F25E38F21B12C340061922E /* Info.plist */,
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F25E3CD21B131700061922E /* MyTableViewExtension.swift in Sources */,
+				4F25E3D121B147960061922E /* Constants.swift in Sources */,
 				4F25E3C621B131700061922E /* MyStringExtension.swift in Sources */,
 				4F25E3C721B131700061922E /* MyUIDeviceExtension.swift in Sources */,
 				4F25E3C521B131700061922E /* MyViewExtension.swift in Sources */,
@@ -556,7 +560,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Superman/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.Superman;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -577,7 +585,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Superman/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.Superman;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -593,7 +605,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SupermanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.SupermanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -608,7 +624,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SupermanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.SupermanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
