@@ -27,7 +27,6 @@
 		4F25E3C921B131700061922E /* MyTextFIeldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */; };
 		4F25E3CA21B131700061922E /* MyUINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */; };
 		4F25E3CB21B131700061922E /* MyColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B621B131700061922E /* MyColorExtension.swift */; };
-		4F25E3CC21B131700061922E /* MyUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */; };
 		4F25E3CD21B131700061922E /* MyTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B821B131700061922E /* MyTableViewExtension.swift */; };
 		4F25E3CE21B131700061922E /* MyNavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */; };
 		4F25E3CF21B131700061922E /* MyButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3BA21B131700061922E /* MyButtonExtension.swift */; };
@@ -74,7 +73,6 @@
 		4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFIeldExtension.swift; sourceTree = "<group>"; };
 		4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		4F25E3B621B131700061922E /* MyColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColorExtension.swift; sourceTree = "<group>"; };
-		4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDefaultsExtension.swift; sourceTree = "<group>"; };
 		4F25E3B821B131700061922E /* MyTableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewExtension.swift; sourceTree = "<group>"; };
 		4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationControllerExtension.swift; sourceTree = "<group>"; };
 		4F25E3BA21B131700061922E /* MyButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonExtension.swift; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 				4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */,
 				4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */,
 				4F25E3B621B131700061922E /* MyColorExtension.swift */,
-				4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */,
 				4F25E3B821B131700061922E /* MyTableViewExtension.swift */,
 				4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */,
 				4F25E3BA21B131700061922E /* MyButtonExtension.swift */,
@@ -394,7 +391,6 @@
 				4F25E3CA21B131700061922E /* MyUINavigationControllerExtension.swift in Sources */,
 				4F25E3C021B131700061922E /* MyViewControllerExtension.swift in Sources */,
 				4F25E3C321B131700061922E /* MyUILabelExtension.swift in Sources */,
-				4F25E3CC21B131700061922E /* MyUserDefaultsExtension.swift in Sources */,
 				4F25E3C821B131700061922E /* MyUIStoryboardSegueExtension.swift in Sources */,
 				4F25E3BD21B131700061922E /* MyNotificationExtension.swift in Sources */,
 				4F25E3CF21B131700061922E /* MyButtonExtension.swift in Sources */,
