@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F25E39521B12C340061922E /* Superman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F25E38B21B12C340061922E /* Superman.framework */; };
+		4F25E39A21B12C340061922E /* SupermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E39921B12C340061922E /* SupermanTests.swift */; };
+		4F25E39C21B12C340061922E /* Superman.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F25E38E21B12C340061922E /* Superman.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F25E3BB21B131700061922E /* MyUIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3A621B131700061922E /* MyUIImageViewExtension.swift */; };
+		4F25E3BC21B131700061922E /* MyUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3A721B131700061922E /* MyUIImageExtension.swift */; };
+		4F25E3BD21B131700061922E /* MyNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3A821B131700061922E /* MyNotificationExtension.swift */; };
+		4F25E3BE21B131700061922E /* MyDateTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3A921B131700061922E /* MyDateTimeExtension.swift */; };
+		4F25E3BF21B131700061922E /* MyIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AA21B131700061922E /* MyIntExtension.swift */; };
+		4F25E3C021B131700061922E /* MyViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AB21B131700061922E /* MyViewControllerExtension.swift */; };
+		4F25E3C121B131700061922E /* MyFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AC21B131700061922E /* MyFontExtension.swift */; };
+		4F25E3C221B131700061922E /* MyUIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AD21B131700061922E /* MyUIStackViewExtension.swift */; };
+		4F25E3C321B131700061922E /* MyUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AE21B131700061922E /* MyUILabelExtension.swift */; };
+		4F25E3C421B131700061922E /* MyErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3AF21B131700061922E /* MyErrorExtension.swift */; };
+		4F25E3C521B131700061922E /* MyViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B021B131700061922E /* MyViewExtension.swift */; };
+		4F25E3C621B131700061922E /* MyStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B121B131700061922E /* MyStringExtension.swift */; };
+		4F25E3C721B131700061922E /* MyUIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B221B131700061922E /* MyUIDeviceExtension.swift */; };
+		4F25E3C821B131700061922E /* MyUIStoryboardSegueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B321B131700061922E /* MyUIStoryboardSegueExtension.swift */; };
+		4F25E3C921B131700061922E /* MyTextFIeldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */; };
+		4F25E3CA21B131700061922E /* MyUINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */; };
+		4F25E3CB21B131700061922E /* MyColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B621B131700061922E /* MyColorExtension.swift */; };
+		4F25E3CC21B131700061922E /* MyUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */; };
+		4F25E3CD21B131700061922E /* MyTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B821B131700061922E /* MyTableViewExtension.swift */; };
+		4F25E3CE21B131700061922E /* MyNavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */; };
+		4F25E3CF21B131700061922E /* MyButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F25E3BA21B131700061922E /* MyButtonExtension.swift */; };
+		73F3F8A89E3F9C5B94AD09BE /* Pods_Superman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DFD52ED862C2A78CBCD6CF /* Pods_Superman.framework */; };
+		F2C64889EF653A8DE9A5EA4F /* Pods_SupermanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046006FED825FA8564C9A626 /* Pods_SupermanTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F25E39621B12C340061922E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F25E38221B12C340061922E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F25E38A21B12C340061922E;
+			remoteInfo = Superman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046006FED825FA8564C9A626 /* Pods_SupermanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupermanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22670CBE2C8B490B072E267D /* Pods-SupermanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupermanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupermanTests/Pods-SupermanTests.release.xcconfig"; sourceTree = "<group>"; };
+		321E428FBB0AAB38066F864D /* Pods-SupermanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupermanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupermanTests/Pods-SupermanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34120FF81DA57EA5166A39CB /* Pods-Superman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Superman/Pods-Superman.release.xcconfig"; sourceTree = "<group>"; };
+		4F25E38B21B12C340061922E /* Superman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Superman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F25E38E21B12C340061922E /* Superman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Superman.h; sourceTree = "<group>"; };
+		4F25E38F21B12C340061922E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F25E39421B12C340061922E /* SupermanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F25E39921B12C340061922E /* SupermanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanTests.swift; sourceTree = "<group>"; };
+		4F25E39B21B12C340061922E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F25E3A621B131700061922E /* MyUIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIImageViewExtension.swift; sourceTree = "<group>"; };
+		4F25E3A721B131700061922E /* MyUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIImageExtension.swift; sourceTree = "<group>"; };
+		4F25E3A821B131700061922E /* MyNotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNotificationExtension.swift; sourceTree = "<group>"; };
+		4F25E3A921B131700061922E /* MyDateTimeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDateTimeExtension.swift; sourceTree = "<group>"; };
+		4F25E3AA21B131700061922E /* MyIntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIntExtension.swift; sourceTree = "<group>"; };
+		4F25E3AB21B131700061922E /* MyViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewControllerExtension.swift; sourceTree = "<group>"; };
+		4F25E3AC21B131700061922E /* MyFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFontExtension.swift; sourceTree = "<group>"; };
+		4F25E3AD21B131700061922E /* MyUIStackViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIStackViewExtension.swift; sourceTree = "<group>"; };
+		4F25E3AE21B131700061922E /* MyUILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUILabelExtension.swift; sourceTree = "<group>"; };
+		4F25E3AF21B131700061922E /* MyErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyErrorExtension.swift; sourceTree = "<group>"; };
+		4F25E3B021B131700061922E /* MyViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewExtension.swift; sourceTree = "<group>"; };
+		4F25E3B121B131700061922E /* MyStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStringExtension.swift; sourceTree = "<group>"; };
+		4F25E3B221B131700061922E /* MyUIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIDeviceExtension.swift; sourceTree = "<group>"; };
+		4F25E3B321B131700061922E /* MyUIStoryboardSegueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUIStoryboardSegueExtension.swift; sourceTree = "<group>"; };
+		4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFIeldExtension.swift; sourceTree = "<group>"; };
+		4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		4F25E3B621B131700061922E /* MyColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColorExtension.swift; sourceTree = "<group>"; };
+		4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDefaultsExtension.swift; sourceTree = "<group>"; };
+		4F25E3B821B131700061922E /* MyTableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewExtension.swift; sourceTree = "<group>"; };
+		4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationControllerExtension.swift; sourceTree = "<group>"; };
+		4F25E3BA21B131700061922E /* MyButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonExtension.swift; sourceTree = "<group>"; };
+		6B34BF33680CF5AB077E7108 /* Pods-Superman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Superman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Superman/Pods-Superman.debug.xcconfig"; sourceTree = "<group>"; };
+		C3DFD52ED862C2A78CBCD6CF /* Pods_Superman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Superman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F25E38821B12C340061922E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F3F8A89E3F9C5B94AD09BE /* Pods_Superman.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F25E39121B12C340061922E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F25E39521B12C340061922E /* Superman.framework in Frameworks */,
+				F2C64889EF653A8DE9A5EA4F /* Pods_SupermanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F25E38121B12C340061922E = {
+			isa = PBXGroup;
+			children = (
+				4F25E38D21B12C340061922E /* Superman */,
+				4F25E39821B12C340061922E /* SupermanTests */,
+				4F25E38C21B12C340061922E /* Products */,
+				843449D0141774D36F94AC1D /* Pods */,
+				AC512170FBA4A9554E8A7251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F25E38C21B12C340061922E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F25E38B21B12C340061922E /* Superman.framework */,
+				4F25E39421B12C340061922E /* SupermanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F25E38D21B12C340061922E /* Superman */ = {
+			isa = PBXGroup;
+			children = (
+				4F25E3A521B131700061922E /* Extension */,
+				4F25E38E21B12C340061922E /* Superman.h */,
+				4F25E38F21B12C340061922E /* Info.plist */,
+			);
+			path = Superman;
+			sourceTree = "<group>";
+		};
+		4F25E39821B12C340061922E /* SupermanTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F25E39921B12C340061922E /* SupermanTests.swift */,
+				4F25E39B21B12C340061922E /* Info.plist */,
+			);
+			path = SupermanTests;
+			sourceTree = "<group>";
+		};
+		4F25E3A521B131700061922E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F25E3A621B131700061922E /* MyUIImageViewExtension.swift */,
+				4F25E3A721B131700061922E /* MyUIImageExtension.swift */,
+				4F25E3A821B131700061922E /* MyNotificationExtension.swift */,
+				4F25E3A921B131700061922E /* MyDateTimeExtension.swift */,
+				4F25E3AA21B131700061922E /* MyIntExtension.swift */,
+				4F25E3AB21B131700061922E /* MyViewControllerExtension.swift */,
+				4F25E3AC21B131700061922E /* MyFontExtension.swift */,
+				4F25E3AD21B131700061922E /* MyUIStackViewExtension.swift */,
+				4F25E3AE21B131700061922E /* MyUILabelExtension.swift */,
+				4F25E3AF21B131700061922E /* MyErrorExtension.swift */,
+				4F25E3B021B131700061922E /* MyViewExtension.swift */,
+				4F25E3B121B131700061922E /* MyStringExtension.swift */,
+				4F25E3B221B131700061922E /* MyUIDeviceExtension.swift */,
+				4F25E3B321B131700061922E /* MyUIStoryboardSegueExtension.swift */,
+				4F25E3B421B131700061922E /* MyTextFIeldExtension.swift */,
+				4F25E3B521B131700061922E /* MyUINavigationControllerExtension.swift */,
+				4F25E3B621B131700061922E /* MyColorExtension.swift */,
+				4F25E3B721B131700061922E /* MyUserDefaultsExtension.swift */,
+				4F25E3B821B131700061922E /* MyTableViewExtension.swift */,
+				4F25E3B921B131700061922E /* MyNavigationControllerExtension.swift */,
+				4F25E3BA21B131700061922E /* MyButtonExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		843449D0141774D36F94AC1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B34BF33680CF5AB077E7108 /* Pods-Superman.debug.xcconfig */,
+				34120FF81DA57EA5166A39CB /* Pods-Superman.release.xcconfig */,
+				321E428FBB0AAB38066F864D /* Pods-SupermanTests.debug.xcconfig */,
+				22670CBE2C8B490B072E267D /* Pods-SupermanTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC512170FBA4A9554E8A7251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3DFD52ED862C2A78CBCD6CF /* Pods_Superman.framework */,
+				046006FED825FA8564C9A626 /* Pods_SupermanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F25E38621B12C340061922E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F25E39C21B12C340061922E /* Superman.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F25E38A21B12C340061922E /* Superman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F25E39F21B12C340061922E /* Build configuration list for PBXNativeTarget "Superman" */;
+			buildPhases = (
+				183475DDFAC4453455B09C2E /* [CP] Check Pods Manifest.lock */,
+				4F25E38621B12C340061922E /* Headers */,
+				4F25E38721B12C340061922E /* Sources */,
+				4F25E38821B12C340061922E /* Frameworks */,
+				4F25E38921B12C340061922E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Superman;
+			productName = Superman;
+			productReference = 4F25E38B21B12C340061922E /* Superman.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F25E39321B12C340061922E /* SupermanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F25E3A221B12C340061922E /* Build configuration list for PBXNativeTarget "SupermanTests" */;
+			buildPhases = (
+				37D2CF0056683B9B246F0887 /* [CP] Check Pods Manifest.lock */,
+				4F25E39021B12C340061922E /* Sources */,
+				4F25E39121B12C340061922E /* Frameworks */,
+				4F25E39221B12C340061922E /* Resources */,
+				955055AB8D87772DC2241F86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F25E39721B12C340061922E /* PBXTargetDependency */,
+			);
+			name = SupermanTests;
+			productName = SupermanTests;
+			productReference = 4F25E39421B12C340061922E /* SupermanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F25E38221B12C340061922E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kerry Express";
+				TargetAttributes = {
+					4F25E38A21B12C340061922E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4F25E39321B12C340061922E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F25E38521B12C340061922E /* Build configuration list for PBXProject "Superman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F25E38121B12C340061922E;
+			productRefGroup = 4F25E38C21B12C340061922E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F25E38A21B12C340061922E /* Superman */,
+				4F25E39321B12C340061922E /* SupermanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F25E38921B12C340061922E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F25E39221B12C340061922E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183475DDFAC4453455B09C2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Superman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D2CF0056683B9B246F0887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupermanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955055AB8D87772DC2241F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SupermanTests/Pods-SupermanTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bond/Bond.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Differ/Differ.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveKit/ReactiveKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bond.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differ.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupermanTests/Pods-SupermanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F25E38721B12C340061922E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F25E3CD21B131700061922E /* MyTableViewExtension.swift in Sources */,
+				4F25E3C621B131700061922E /* MyStringExtension.swift in Sources */,
+				4F25E3C721B131700061922E /* MyUIDeviceExtension.swift in Sources */,
+				4F25E3C521B131700061922E /* MyViewExtension.swift in Sources */,
+				4F25E3C921B131700061922E /* MyTextFIeldExtension.swift in Sources */,
+				4F25E3BE21B131700061922E /* MyDateTimeExtension.swift in Sources */,
+				4F25E3C221B131700061922E /* MyUIStackViewExtension.swift in Sources */,
+				4F25E3BB21B131700061922E /* MyUIImageViewExtension.swift in Sources */,
+				4F25E3CA21B131700061922E /* MyUINavigationControllerExtension.swift in Sources */,
+				4F25E3C021B131700061922E /* MyViewControllerExtension.swift in Sources */,
+				4F25E3C321B131700061922E /* MyUILabelExtension.swift in Sources */,
+				4F25E3CC21B131700061922E /* MyUserDefaultsExtension.swift in Sources */,
+				4F25E3C821B131700061922E /* MyUIStoryboardSegueExtension.swift in Sources */,
+				4F25E3BD21B131700061922E /* MyNotificationExtension.swift in Sources */,
+				4F25E3CF21B131700061922E /* MyButtonExtension.swift in Sources */,
+				4F25E3C421B131700061922E /* MyErrorExtension.swift in Sources */,
+				4F25E3CE21B131700061922E /* MyNavigationControllerExtension.swift in Sources */,
+				4F25E3BC21B131700061922E /* MyUIImageExtension.swift in Sources */,
+				4F25E3C121B131700061922E /* MyFontExtension.swift in Sources */,
+				4F25E3BF21B131700061922E /* MyIntExtension.swift in Sources */,
+				4F25E3CB21B131700061922E /* MyColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F25E39021B12C340061922E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F25E39A21B12C340061922E /* SupermanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F25E39721B12C340061922E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F25E38A21B12C340061922E /* Superman */;
+			targetProxy = 4F25E39621B12C340061922E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F25E39D21B12C340061922E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F25E39E21B12C340061922E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F25E3A021B12C340061922E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B34BF33680CF5AB077E7108 /* Pods-Superman.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Superman/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.Superman;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F25E3A121B12C340061922E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34120FF81DA57EA5166A39CB /* Pods-Superman.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Superman/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.Superman;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F25E3A321B12C340061922E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321E428FBB0AAB38066F864D /* Pods-SupermanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupermanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.SupermanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F25E3A421B12C340061922E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22670CBE2C8B490B072E267D /* Pods-SupermanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupermanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feem.io.mobile.SupermanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F25E38521B12C340061922E /* Build configuration list for PBXProject "Superman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F25E39D21B12C340061922E /* Debug */,
+				4F25E39E21B12C340061922E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F25E39F21B12C340061922E /* Build configuration list for PBXNativeTarget "Superman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F25E3A021B12C340061922E /* Debug */,
+				4F25E3A121B12C340061922E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F25E3A221B12C340061922E /* Build configuration list for PBXNativeTarget "SupermanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F25E3A321B12C340061922E /* Debug */,
+				4F25E3A421B12C340061922E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F25E38221B12C340061922E /* Project object */;
+}
