@@ -58,7 +58,7 @@ extension UIButton {
     func forDefaultLightGray() {
         self.titleLabel?.font = UIFont.fontForButton()
         self.setTitleColor(UIColor.white, for: .normal)
-        self.setBackgroundColor(UIColor.lightGray, for: .disabled)
+        self.setBackgroundColor(UIColor.flatWhite, for: .disabled)
         self.setBackgroundColor(UIColor.lightGray, for: .normal)
     }
     

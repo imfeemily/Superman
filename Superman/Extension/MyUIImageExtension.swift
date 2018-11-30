@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import PromiseKit
 
 public enum ImageFormat {
     case png
@@ -122,10 +123,14 @@ extension UIImage {
         return scaledImage!
     }
     
-    class func convertImageToBase64(image: UIImage) -> String {
-      
-        let imageData = image.jpegData(compressionQuality: 1)!
-        return imageData.base64EncodedString()
+    class func convertImageToBase64(image: UIImage) -> Promise<String> {
+        
+        return Promise { promise in
+            
+            let imageData = image.jpegData(compressionQuality: 1)!
+            promise.fulfill(imageData.base64EncodedString())
+            
+        }
     }
     
     class func base64(image: UIImage,format: ImageFormat) -> String? {

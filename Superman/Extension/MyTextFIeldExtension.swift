@@ -317,7 +317,7 @@ extension TextField {
         self.returnKeyType = .done
         self.keyboardType = .numberPad
         self.dividerContentEdgeInsets.bottom = -10
-        self.dividerNormalColor = Color.lightGray
+        self.dividerNormalColor = Color.flatWhite
         self.dividerActiveColor = UIColor.kerryGray
         self.dividerNormalHeight = 1
         self.dividerActiveHeight = 2
@@ -336,7 +336,7 @@ extension TextField {
         self.returnKeyType = .done
         self.keyboardType = .emailAddress
         self.dividerContentEdgeInsets.bottom = -10
-        self.dividerNormalColor = Color.lightGray
+        self.dividerNormalColor = Color.flatWhite
         self.dividerActiveColor = UIColor.kerryGray
         self.dividerNormalHeight = 1
         self.dividerActiveHeight = 2

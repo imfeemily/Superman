@@ -58,7 +58,7 @@ extension UIView{
     
     func withShadow() {
         let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: layer.frame.height / 2)
-        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowColor = UIColor.flatBlack.cgColor
         layer.shadowOffset = CGSize.init(width: 0, height: 1)
         layer.shadowOpacity = 0.3
         layer.shadowPath = shadowPath.cgPath
