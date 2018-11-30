@@ -6,8 +6,6 @@ target 'Superman' do
   use_frameworks!
 
   # Pods for Superman
-  pod 'PromiseKit', '~> 6.0'
-  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'AlamofireImage'
   pod 'Localize' , '~> 2.0.5'
   pod 'SnapKit', '~> 4.0.0'

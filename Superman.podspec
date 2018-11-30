@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Superman"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Superman can do everything."
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  #s.resources = "Superman/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  s.resources = "Superman/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -117,14 +117,7 @@ Pod::Spec.new do |s|
   #
 
 s.framework = "UIKit"
-s.dependency 'PromiseKit', '~> 6.0'
-s.dependency 'MBProgressHUD', '~> 1.1.0'
-s.dependency 'ChameleonFramework/Swift'
-s.dependency 'AlamofireImage'
-s.dependency 'Localize' , '~> 2.0.5'
-s.dependency 'SnapKit', '~> 4.0.0'
-s.dependency 'Material'
-s.dependency 'Bond'
+
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -136,10 +129,18 @@ s.dependency 'Bond'
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  #s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+s.dependency 'PromiseKit', '~> 6.0'
+s.dependency 'MBProgressHUD', '~> 1.1.0'
+s.dependency 'ChameleonFramework/Swift'
+s.dependency 'AlamofireImage'
+s.dependency 'Localize' , '~> 2.0.5'
+s.dependency 'SnapKit', '~> 4.0.0'
+s.dependency 'Material'
+s.dependency 'Bond'
 
 s.swift_version = "4.2"
 end

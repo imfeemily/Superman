@@ -9,9 +9,14 @@
 import Foundation
 import UIKit
 import Material
-import ChameleonFramework
 
 extension UILabel {
+    
+    func forCustom(font: UIFont, color: UIColor){
+        self.font = font
+        self.textColor = color
+    }
+    
     func forTitleGrayBold() {
         self.font = RobotoFont.bold(with: 21)
         self.textColor = UIColor.kerryGray
@@ -167,15 +172,6 @@ extension UILabel {
         self.textColor = UIColor.lightGray
     }
     
-    func forDetailFlatWhite() {
-        self.font = RobotoFont.regular(with: 14)
-        self.textColor = UIColor.flatWhite
-    }
-    
-    func forDetailFlatGray() {
-        self.font = RobotoFont.regular(with: 14)
-        self.textColor = UIColor.flatGray
-    }
 }
 
 extension UILabel {
